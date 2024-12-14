@@ -104,6 +104,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
                 </button>
               </div>
             </div>
+            
           </div> */}
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
