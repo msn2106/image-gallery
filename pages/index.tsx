@@ -86,11 +86,6 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             <p className='max-w-[40ch] text-white/75 sm:max-w-[32ch]'>
               All the general photos, not having any person, which are cool and need to be kept safe are here.
             </p>
-            {/* <button
-              className='pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4'
-              onClick={() => alert('Coming Soon..')}>
-              Upload Images
-            </button> */}
           </div>
           <div className='relative z-50 flex aspect-[3/2] w-full max-w-7xl items-center wide:h-full xl:taller-than-854:h-auto'>
             <div className='w-full overflow-hidden'>
